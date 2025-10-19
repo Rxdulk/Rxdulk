@@ -11,12 +11,12 @@ body {
 .image-container {
     display: flex;
     flex-direction: column;
-    gap: 20px; /* space between the images */
+    gap: 30px; /* space between the images */
     text-align: center;
 }
 
 .image-container img {
-    width: 300px;   /* change size as you like */
+    width: 400px;   /* change size as you like */
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.2);
 }
