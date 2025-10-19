@@ -1,13 +1,22 @@
 body {
-  margin: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  background-color: #000;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
 }
 
-img {
-  max-width: 100%;
-  height: auto;
+.image-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* space between the images */
+    text-align: center;
+}
+
+.image-container img {
+    width: 300px;   /* change size as you like */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
 }
