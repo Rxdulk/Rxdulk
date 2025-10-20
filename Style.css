@@ -1,0 +1,44 @@
+/* Dark background and centered layout */
+body {
+  background-color: #121212;
+  color: #ffffff;
+  font-family: 'Arial', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+}
+
+/* Container centers everything */
+.container {
+  text-align: center;
+}
+
+/* Title with changeable font */
+.main-title {
+  font-size: 2.5em;
+  font-weight: bold;
+  margin-bottom: 40px;
+  font-family: 'Comic Sans MS', cursive, sans-serif; /* You can change this font */
+}
+
+/* Image blocks styling */
+.image-block {
+  margin-bottom: 30px;
+}
+
+.image-block img {
+  width: 300px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(255, 255, 255, 0.2);
+}
+
+/* Captions below images */
+.caption {
+  margin-top: 10px;
+  font-size: 1.2em;
+  color: #bbbbbb;
+    }
